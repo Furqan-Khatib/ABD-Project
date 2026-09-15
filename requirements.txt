@@ -2,3 +2,4 @@ streamlit
 plotly
 pyproj
 sklearn
+scikit-learn
