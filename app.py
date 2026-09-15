@@ -117,7 +117,7 @@ def load_and_preprocess_data():
     # 1. HDB Carpark Data
     cp_path = '/workspace/knowledge/HDBCarparkInformation.csv'
     if not os.path.exists(cp_path):
-        cp_path = 'C:\NUS-ISS\ABD Project Module\Datasets\HDBCarparkInformation.csv'
+        cp_path = 'Datasets/HDBCarparkInformation.csv'
         
     df_cp = pd.read_csv(cp_path)
     
